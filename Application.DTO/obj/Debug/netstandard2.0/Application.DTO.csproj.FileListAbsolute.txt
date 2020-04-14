@@ -1,0 +1,20 @@
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Application.DTO\bin\Debug\netstandard2.0\Application.DTO.deps.json
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Application.DTO\bin\Debug\netstandard2.0\Application.DTO.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Application.DTO\bin\Debug\netstandard2.0\Application.DTO.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Application.DTO\obj\Debug\netstandard2.0\Application.DTO.csproj.CoreCompileInputs.cache
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Application.DTO\obj\Debug\netstandard2.0\Application.DTO.AssemblyInfoInputs.cache
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Application.DTO\obj\Debug\netstandard2.0\Application.DTO.AssemblyInfo.cs
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Application.DTO\obj\Debug\netstandard2.0\Application.DTO.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Application.DTO\obj\Debug\netstandard2.0\Application.DTO.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.DTO\bin\Debug\netstandard2.0\Application.DTO.deps.json
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.DTO\bin\Debug\netstandard2.0\Application.DTO.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.DTO\bin\Debug\netstandard2.0\Application.DTO.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.DTO\obj\Debug\netstandard2.0\Application.DTO.csproj.CoreCompileInputs.cache
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.DTO\obj\Debug\netstandard2.0\Application.DTO.AssemblyInfoInputs.cache
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.DTO\obj\Debug\netstandard2.0\Application.DTO.AssemblyInfo.cs
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.DTO\obj\Debug\netstandard2.0\Application.DTO.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.DTO\obj\Debug\netstandard2.0\Application.DTO.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.DTO\bin\Debug\netstandard2.0\Domain.Entity.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.DTO\bin\Debug\netstandard2.0\Domain.Entity.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.DTO\obj\Debug\netstandard2.0\Application.DTO.csprojAssemblyReference.cache
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.DTO\obj\Debug\netstandard2.0\Application.DTO.csproj.CopyComplete

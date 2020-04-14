@@ -1,0 +1,8 @@
+D:\UPC\Proyecto Tesis\MuniBot\MuniBot.Application.DTO\bin\Debug\netstandard2.0\MuniBot.Application.DTO.deps.json
+D:\UPC\Proyecto Tesis\MuniBot\MuniBot.Application.DTO\bin\Debug\netstandard2.0\MuniBot.Application.DTO.dll
+D:\UPC\Proyecto Tesis\MuniBot\MuniBot.Application.DTO\bin\Debug\netstandard2.0\MuniBot.Application.DTO.pdb
+D:\UPC\Proyecto Tesis\MuniBot\MuniBot.Application.DTO\obj\Debug\netstandard2.0\MuniBot.Application.DTO.csproj.CoreCompileInputs.cache
+D:\UPC\Proyecto Tesis\MuniBot\MuniBot.Application.DTO\obj\Debug\netstandard2.0\MuniBot.Application.DTO.AssemblyInfoInputs.cache
+D:\UPC\Proyecto Tesis\MuniBot\MuniBot.Application.DTO\obj\Debug\netstandard2.0\MuniBot.Application.DTO.AssemblyInfo.cs
+D:\UPC\Proyecto Tesis\MuniBot\MuniBot.Application.DTO\obj\Debug\netstandard2.0\MuniBot.Application.DTO.dll
+D:\UPC\Proyecto Tesis\MuniBot\MuniBot.Application.DTO\obj\Debug\netstandard2.0\MuniBot.Application.DTO.pdb

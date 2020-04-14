@@ -1,0 +1,40 @@
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Application.main\bin\Debug\netstandard2.0\Application.Main.deps.json
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Application.main\bin\Debug\netstandard2.0\Application.Main.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Application.main\bin\Debug\netstandard2.0\Application.Main.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Application.main\bin\Debug\netstandard2.0\Application.DTO.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Application.main\bin\Debug\netstandard2.0\Application.Interface.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Application.main\bin\Debug\netstandard2.0\Domain.Entity.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Application.main\bin\Debug\netstandard2.0\Domain.Interface.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Application.main\bin\Debug\netstandard2.0\Transversal.Common.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Application.main\bin\Debug\netstandard2.0\Application.DTO.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Application.main\bin\Debug\netstandard2.0\Application.Interface.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Application.main\bin\Debug\netstandard2.0\Domain.Entity.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Application.main\bin\Debug\netstandard2.0\Domain.Interface.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Application.main\bin\Debug\netstandard2.0\Transversal.Common.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Application.main\obj\Debug\netstandard2.0\Application.Main.csprojAssemblyReference.cache
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Application.main\obj\Debug\netstandard2.0\Application.Main.csproj.CoreCompileInputs.cache
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Application.main\obj\Debug\netstandard2.0\Application.Main.AssemblyInfoInputs.cache
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Application.main\obj\Debug\netstandard2.0\Application.Main.AssemblyInfo.cs
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Application.main\obj\Debug\netstandard2.0\Application.Main.csproj.CopyComplete
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Application.main\obj\Debug\netstandard2.0\Application.Main.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Application.main\obj\Debug\netstandard2.0\Application.Main.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.main\bin\Debug\netstandard2.0\Application.Main.deps.json
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.main\bin\Debug\netstandard2.0\Application.Main.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.main\bin\Debug\netstandard2.0\Application.Main.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.main\bin\Debug\netstandard2.0\Application.DTO.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.main\bin\Debug\netstandard2.0\Application.Interface.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.main\bin\Debug\netstandard2.0\Domain.Entity.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.main\bin\Debug\netstandard2.0\Domain.Interface.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.main\bin\Debug\netstandard2.0\Transversal.Common.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.main\bin\Debug\netstandard2.0\Application.DTO.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.main\bin\Debug\netstandard2.0\Application.Interface.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.main\bin\Debug\netstandard2.0\Domain.Entity.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.main\bin\Debug\netstandard2.0\Domain.Interface.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.main\bin\Debug\netstandard2.0\Transversal.Common.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.main\obj\Debug\netstandard2.0\Application.Main.csprojAssemblyReference.cache
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.main\obj\Debug\netstandard2.0\Application.Main.csproj.CoreCompileInputs.cache
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.main\obj\Debug\netstandard2.0\Application.Main.AssemblyInfoInputs.cache
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.main\obj\Debug\netstandard2.0\Application.Main.AssemblyInfo.cs
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.main\obj\Debug\netstandard2.0\Application.Main.csproj.CopyComplete
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.main\obj\Debug\netstandard2.0\Application.Main.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Application.main\obj\Debug\netstandard2.0\Application.Main.pdb

@@ -1,0 +1,12 @@
+D:\UPC\Proyecto Tesis\MuniBot\MuniBot.Domain.Interface\bin\Debug\netstandard2.0\MuniBot.Domain.Interface.deps.json
+D:\UPC\Proyecto Tesis\MuniBot\MuniBot.Domain.Interface\bin\Debug\netstandard2.0\MuniBot.Domain.Interface.dll
+D:\UPC\Proyecto Tesis\MuniBot\MuniBot.Domain.Interface\bin\Debug\netstandard2.0\MuniBot.Domain.Interface.pdb
+D:\UPC\Proyecto Tesis\MuniBot\MuniBot.Domain.Interface\bin\Debug\netstandard2.0\MuniBot.Domain.Entity.dll
+D:\UPC\Proyecto Tesis\MuniBot\MuniBot.Domain.Interface\bin\Debug\netstandard2.0\MuniBot.Domain.Entity.pdb
+D:\UPC\Proyecto Tesis\MuniBot\MuniBot.Domain.Interface\obj\Debug\netstandard2.0\MuniBot.Domain.Interface.csprojAssemblyReference.cache
+D:\UPC\Proyecto Tesis\MuniBot\MuniBot.Domain.Interface\obj\Debug\netstandard2.0\MuniBot.Domain.Interface.csproj.CoreCompileInputs.cache
+D:\UPC\Proyecto Tesis\MuniBot\MuniBot.Domain.Interface\obj\Debug\netstandard2.0\MuniBot.Domain.Interface.AssemblyInfoInputs.cache
+D:\UPC\Proyecto Tesis\MuniBot\MuniBot.Domain.Interface\obj\Debug\netstandard2.0\MuniBot.Domain.Interface.AssemblyInfo.cs
+D:\UPC\Proyecto Tesis\MuniBot\MuniBot.Domain.Interface\obj\Debug\netstandard2.0\MuniBot.Domain.Interface.csproj.CopyComplete
+D:\UPC\Proyecto Tesis\MuniBot\MuniBot.Domain.Interface\obj\Debug\netstandard2.0\MuniBot.Domain.Interface.dll
+D:\UPC\Proyecto Tesis\MuniBot\MuniBot.Domain.Interface\obj\Debug\netstandard2.0\MuniBot.Domain.Interface.pdb

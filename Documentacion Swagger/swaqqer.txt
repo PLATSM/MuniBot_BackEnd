@@ -1,0 +1,487 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "PLATSM Technology Services API Market",
+    "description": "ASP.NET Core Web API",
+    "termsOfService": "https://platsm.com/terms",
+    "contact": {
+      "name": "UPC - PLATSM",
+      "url": "https://platsm.com/contact",
+      "email": "platsm@upc.edu.pe"
+    },
+    "license": {
+      "name": "Use under UPC",
+      "url": "https://platsm.com/licence"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Contribuyente/Insert": {
+      "post": {
+        "tags": [
+          "Contribuyente"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Contribuyente/Update": {
+      "put": {
+        "tags": [
+          "Contribuyente"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Contribuyente/Delete": {
+      "put": {
+        "tags": [
+          "Contribuyente"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Contribuyente/Get": {
+      "post": {
+        "tags": [
+          "Contribuyente"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Contribuyente/GetAll": {
+      "post": {
+        "tags": [
+          "Contribuyente"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Contribuyente/InsertAsync": {
+      "post": {
+        "tags": [
+          "Contribuyente"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Contribuyente/UpdateAsync": {
+      "put": {
+        "tags": [
+          "Contribuyente"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Contribuyente/DeleteAsync": {
+      "put": {
+        "tags": [
+          "Contribuyente"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Contribuyente/GetAsync": {
+      "post": {
+        "tags": [
+          "Contribuyente"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Contribuyente/GetAllAsync": {
+      "post": {
+        "tags": [
+          "Contribuyente"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContribuyenteDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ContribuyenteDTO": {
+        "type": "object",
+        "properties": {
+          "id_contribuyente": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "id_empresa": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "co_usuario": {
+            "type": "string",
+            "nullable": true
+          },
+          "co_tipo_persona": {
+            "type": "string",
+            "nullable": true
+          },
+          "co_documento_identidad": {
+            "type": "string",
+            "nullable": true
+          },
+          "nu_documento_identidad": {
+            "type": "string",
+            "nullable": true
+          },
+          "no_nombres": {
+            "type": "string",
+            "nullable": true
+          },
+          "no_apellido_paterno": {
+            "type": "string",
+            "nullable": true
+          },
+          "no_apellido_materno": {
+            "type": "string",
+            "nullable": true
+          },
+          "no_razon_social": {
+            "type": "string",
+            "nullable": true
+          },
+          "no_correo_electronico": {
+            "type": "string",
+            "nullable": true
+          },
+          "no_contrasena": {
+            "type": "string",
+            "nullable": true
+          },
+          "fl_resetear_pwd": {
+            "type": "string",
+            "nullable": true
+          },
+          "fl_bloqueado": {
+            "type": "string",
+            "nullable": true
+          },
+          "fe_bloqueado": {
+            "type": "string",
+            "nullable": true
+          },
+          "qt_login_intentos": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fe_cambio_contrasena": {
+            "type": "string",
+            "nullable": true
+          },
+          "fl_inactivo": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_usuario_creacion": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fe_creacion": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "id_usuario_modificacion": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fe_modificacion": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "error_number": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "error_message": {
+            "type": "string",
+            "nullable": true
+          }
+        }
+      }
+    }
+  }
+}
