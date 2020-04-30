@@ -8,6 +8,7 @@
     <ProjectReference Include="..\Domain.Entity\Domain.Entity.csproj" />
     <ProjectReference Include="..\Domain.Interface\Domain.Interface.csproj" />
     <ProjectReference Include="..\Infrastructure.Interface\Infrastructure.Interface.csproj" />
+    <ProjectReference Include="..\Transversal.Common\Transversal.Common.csproj" />
   </ItemGroup>
 
 </Project>

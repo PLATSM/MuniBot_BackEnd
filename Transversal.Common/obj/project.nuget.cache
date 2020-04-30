@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+aDov/LUXXZQVbwNBZlLJXA7BNAnmdaaivRKfrQ3/NJbn+CzUVXDZu8soZQGS0c9YbIjItzY6fOEInyr3WFshA==",
+  "dgSpecHash": "qE6YBiUsAKRientlZNjeubeAsFLevCXj2w7uk4sev9unjYLtRjPDAxfPwGgY8nJ8iHWpriFIgc8qrmv7Uqj+XQ==",
   "success": true,
-  "projectFilePath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Transversal.Common\\Transversal.Common.csproj",
+  "projectFilePath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Transversal.Common\\Transversal.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

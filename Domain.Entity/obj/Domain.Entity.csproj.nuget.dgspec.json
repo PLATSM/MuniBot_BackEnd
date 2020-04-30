@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Domain.Entity\\Domain.Entity.csproj": {}
+    "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Domain.Entity\\Domain.Entity.csproj": {}
   },
   "projects": {
-    "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Domain.Entity\\Domain.Entity.csproj": {
+    "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Domain.Entity\\Domain.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Domain.Entity\\Domain.Entity.csproj",
+        "projectUniqueName": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Domain.Entity\\Domain.Entity.csproj",
         "projectName": "Domain.Entity",
-        "projectPath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Domain.Entity\\Domain.Entity.csproj",
+        "projectPath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Domain.Entity\\Domain.Entity.csproj",
         "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
-        "outputPath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Domain.Entity\\obj\\",
+        "outputPath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Domain.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

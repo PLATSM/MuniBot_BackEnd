@@ -36,3 +36,43 @@ D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Services.WebApi\obj\Debug\netcoreapp2
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Services.WebApi\obj\Debug\netcoreapp2.2\Services.WebApi.dll
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Services.WebApi\obj\Debug\netcoreapp2.2\Services.WebApi.pdb
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Services.WebApi\bin\Debug\netcoreapp2.2\Services.WebApi.xml
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\bin\Debug\netcoreapp2.2\Services.WebApi.deps.json
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\bin\Debug\netcoreapp2.2\Services.WebApi.runtimeconfig.json
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\bin\Debug\netcoreapp2.2\Services.WebApi.runtimeconfig.dev.json
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\bin\Debug\netcoreapp2.2\Services.WebApi.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\bin\Debug\netcoreapp2.2\Services.WebApi.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\bin\Debug\netcoreapp2.2\Application.DTO.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\bin\Debug\netcoreapp2.2\Application.Interface.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\bin\Debug\netcoreapp2.2\Application.Main.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\bin\Debug\netcoreapp2.2\Domain.Core.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\bin\Debug\netcoreapp2.2\Domain.Entity.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\bin\Debug\netcoreapp2.2\Domain.Interface.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\bin\Debug\netcoreapp2.2\Infrastructure.Data.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\bin\Debug\netcoreapp2.2\Infrastructure.Interface.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\bin\Debug\netcoreapp2.2\Infrastructure.Repository.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\bin\Debug\netcoreapp2.2\Transversal.Common.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\bin\Debug\netcoreapp2.2\Transversal.Mapper.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\bin\Debug\netcoreapp2.2\Application.DTO.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\bin\Debug\netcoreapp2.2\Application.Interface.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\bin\Debug\netcoreapp2.2\Application.Main.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\bin\Debug\netcoreapp2.2\Domain.Core.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\bin\Debug\netcoreapp2.2\Domain.Entity.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\bin\Debug\netcoreapp2.2\Domain.Interface.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\bin\Debug\netcoreapp2.2\Infrastructure.Data.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\bin\Debug\netcoreapp2.2\Infrastructure.Interface.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\bin\Debug\netcoreapp2.2\Infrastructure.Repository.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\bin\Debug\netcoreapp2.2\Transversal.Common.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\bin\Debug\netcoreapp2.2\Transversal.Mapper.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\obj\Debug\netcoreapp2.2\Services.WebApi.csprojAssemblyReference.cache
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\obj\Debug\netcoreapp2.2\Services.WebApi.csproj.CoreCompileInputs.cache
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\obj\Debug\netcoreapp2.2\Services.WebApi.RazorAssemblyInfo.cache
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\obj\Debug\netcoreapp2.2\Services.WebApi.RazorAssemblyInfo.cs
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\obj\Debug\netcoreapp2.2\Services.WebApi.AssemblyInfoInputs.cache
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\obj\Debug\netcoreapp2.2\Services.WebApi.AssemblyInfo.cs
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\obj\Debug\netcoreapp2.2\Services.WebApi.RazorTargetAssemblyInfo.cache
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\obj\Debug\netcoreapp2.2\Services.WebApi.csproj.CopyComplete
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\obj\Debug\netcoreapp2.2\Services.WebApi.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\obj\Debug\netcoreapp2.2\Services.WebApi.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\bin\Debug\netcoreapp2.2\Services.WebApi.xml
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\bin\Debug\netcoreapp2.2\Transversal.Logging.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Services.WebApi\bin\Debug\netcoreapp2.2\Transversal.Logging.pdb

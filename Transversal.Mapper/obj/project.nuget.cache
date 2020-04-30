@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tozk7zopHJ62uQK1fvYLuRIeGhbcOYPC9++FvJiFa4qRqYg5Sb2u3H5Hlb3JGMcVE3STS1wwq3oLHLJM4B8IAg==",
+  "dgSpecHash": "+0q2F1IlE6rEnUMA80UhLlK652u4FZv+tVTcbAmsyagn1TC4Albxou/YjaniNAj7lUhkcpRYDh9SvayHinFOJQ==",
   "success": true,
-  "projectFilePath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Transversal.Mapper\\Transversal.Mapper.csproj",
+  "projectFilePath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Transversal.Mapper\\Transversal.Mapper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ricardo\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

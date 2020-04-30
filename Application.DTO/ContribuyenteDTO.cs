@@ -15,6 +15,7 @@ namespace MuniBot_BackEnd.Application.DTO
         public string no_apellido_paterno { get; set; }
         public string no_apellido_materno { get; set; }
         public string no_razon_social { get; set; }
+        public string nu_telefono { get; set; }
         public string no_correo_electronico { get; set; }
         public string no_contrasena { get; set; }
         public string fl_resetear_pwd { get; set; }

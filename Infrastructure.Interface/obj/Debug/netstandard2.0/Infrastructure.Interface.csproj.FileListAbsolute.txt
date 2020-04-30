@@ -22,3 +22,17 @@ D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Infrastructure.Interface\obj\Debug\ne
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Infrastructure.Interface\obj\Debug\netstandard2.0\Infrastructure.Interface.csproj.CopyComplete
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Infrastructure.Interface\obj\Debug\netstandard2.0\Infrastructure.Interface.dll
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Infrastructure.Interface\obj\Debug\netstandard2.0\Infrastructure.Interface.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Interface\bin\Debug\netstandard2.0\Infrastructure.Interface.deps.json
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Interface\bin\Debug\netstandard2.0\Infrastructure.Interface.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Interface\bin\Debug\netstandard2.0\Infrastructure.Interface.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Interface\bin\Debug\netstandard2.0\Domain.Entity.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Interface\bin\Debug\netstandard2.0\Transversal.Common.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Interface\bin\Debug\netstandard2.0\Domain.Entity.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Interface\bin\Debug\netstandard2.0\Transversal.Common.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Interface\obj\Debug\netstandard2.0\Infrastructure.Interface.csprojAssemblyReference.cache
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Interface\obj\Debug\netstandard2.0\Infrastructure.Interface.csproj.CoreCompileInputs.cache
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Interface\obj\Debug\netstandard2.0\Infrastructure.Interface.AssemblyInfoInputs.cache
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Interface\obj\Debug\netstandard2.0\Infrastructure.Interface.AssemblyInfo.cs
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Interface\obj\Debug\netstandard2.0\Infrastructure.Interface.csproj.CopyComplete
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Interface\obj\Debug\netstandard2.0\Infrastructure.Interface.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Interface\obj\Debug\netstandard2.0\Infrastructure.Interface.pdb

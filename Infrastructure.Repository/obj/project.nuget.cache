@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7agZCE5lDdm7CpYZidMOsL8nsKP75UkO54g9j5NKqijHsd6KlaGCzSIxFn3k8YaefkLvDd1lrHIltFaA04J8KQ==",
+  "dgSpecHash": "/vKyHhcVG7Z/otXd3hkkAMUYm5Jm4AeFJNk6VCUPva7xdPelF1OqFjtOU1pdv+gEtxPooh5/T7ANAcHT9zabfw==",
   "success": true,
-  "projectFilePath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Infrastructure.Repository\\Infrastructure.Repository.csproj",
+  "projectFilePath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Infrastructure.Repository\\Infrastructure.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ricardo\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

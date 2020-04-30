@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PV2qyeij3HNZ3VF3sBx0xercMVxQaYL0lcP6/zqYCPQUlpLyzFB7JbTpireGPqVSxhfk1SdkOTrtDdrzfp0jsw==",
+  "dgSpecHash": "UweN2n8awTa6L6yj93dTcns8QvW4t0BBsUatX/uIxSSHydgT+uPsPjOX0aYaUtsb/CJ2ho8aScKUwxu2dOxl/A==",
   "success": true,
-  "projectFilePath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Application.Interface\\Application.Interface.csproj",
+  "projectFilePath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Application.Interface\\Application.Interface.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

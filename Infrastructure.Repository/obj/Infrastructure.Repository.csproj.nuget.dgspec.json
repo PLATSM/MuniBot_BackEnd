@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Infrastructure.Repository\\Infrastructure.Repository.csproj": {}
+    "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Infrastructure.Repository\\Infrastructure.Repository.csproj": {}
   },
   "projects": {
-    "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Domain.Entity\\Domain.Entity.csproj": {
+    "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Domain.Entity\\Domain.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Domain.Entity\\Domain.Entity.csproj",
+        "projectUniqueName": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Domain.Entity\\Domain.Entity.csproj",
         "projectName": "Domain.Entity",
-        "projectPath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Domain.Entity\\Domain.Entity.csproj",
+        "projectPath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Domain.Entity\\Domain.Entity.csproj",
         "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
-        "outputPath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Domain.Entity\\obj\\",
+        "outputPath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Domain.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -62,14 +62,14 @@
         }
       }
     },
-    "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Infrastructure.Interface\\Infrastructure.Interface.csproj": {
+    "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Infrastructure.Interface\\Infrastructure.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Infrastructure.Interface\\Infrastructure.Interface.csproj",
+        "projectUniqueName": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Infrastructure.Interface\\Infrastructure.Interface.csproj",
         "projectName": "Infrastructure.Interface",
-        "projectPath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Infrastructure.Interface\\Infrastructure.Interface.csproj",
+        "projectPath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Infrastructure.Interface\\Infrastructure.Interface.csproj",
         "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
-        "outputPath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Infrastructure.Interface\\obj\\",
+        "outputPath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Infrastructure.Interface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -88,8 +88,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Domain.Entity\\Domain.Entity.csproj": {
-                "projectPath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Domain.Entity\\Domain.Entity.csproj"
+              "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Domain.Entity\\Domain.Entity.csproj": {
+                "projectPath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Domain.Entity\\Domain.Entity.csproj"
+              },
+              "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Transversal.Common\\Transversal.Common.csproj": {
+                "projectPath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Transversal.Common\\Transversal.Common.csproj"
               }
             }
           }
@@ -124,14 +127,14 @@
         }
       }
     },
-    "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Infrastructure.Repository\\Infrastructure.Repository.csproj": {
+    "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Infrastructure.Repository\\Infrastructure.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Infrastructure.Repository\\Infrastructure.Repository.csproj",
+        "projectUniqueName": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Infrastructure.Repository\\Infrastructure.Repository.csproj",
         "projectName": "Infrastructure.Repository",
-        "projectPath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Infrastructure.Repository\\Infrastructure.Repository.csproj",
+        "projectPath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Infrastructure.Repository\\Infrastructure.Repository.csproj",
         "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
-        "outputPath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Infrastructure.Repository\\obj\\",
+        "outputPath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Infrastructure.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -150,11 +153,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Infrastructure.Interface\\Infrastructure.Interface.csproj": {
-                "projectPath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Infrastructure.Interface\\Infrastructure.Interface.csproj"
+              "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Infrastructure.Interface\\Infrastructure.Interface.csproj": {
+                "projectPath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Infrastructure.Interface\\Infrastructure.Interface.csproj"
               },
-              "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Transversal.Common\\Transversal.Common.csproj": {
-                "projectPath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Transversal.Common\\Transversal.Common.csproj"
+              "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Transversal.Common\\Transversal.Common.csproj": {
+                "projectPath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Transversal.Common\\Transversal.Common.csproj"
               }
             }
           }
@@ -193,14 +196,14 @@
         }
       }
     },
-    "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Transversal.Common\\Transversal.Common.csproj": {
+    "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Transversal.Common\\Transversal.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Transversal.Common\\Transversal.Common.csproj",
+        "projectUniqueName": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Transversal.Common\\Transversal.Common.csproj",
         "projectName": "Transversal.Common",
-        "projectPath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Transversal.Common\\Transversal.Common.csproj",
+        "projectPath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Transversal.Common\\Transversal.Common.csproj",
         "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
-        "outputPath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Transversal.Common\\obj\\",
+        "outputPath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Transversal.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

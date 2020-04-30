@@ -35,7 +35,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servicio", "Servicio", "{58
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transversal.Common", "Transversal.Common\Transversal.Common.csproj", "{1CDCB315-0612-4BB5-8320-584843DF3D95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.WebApi", "Services.WebApi\Services.WebApi.csproj", "{2E39D851-71BE-4C17-BBB5-D672E5FDFDF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.WebApi", "Services.WebApi\Services.WebApi.csproj", "{2E39D851-71BE-4C17-BBB5-D672E5FDFDF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transversal.Logging", "Transversal.Logging\Transversal.Logging.csproj", "{C529381E-E18B-44D1-9967-02DAB07ED833}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +93,10 @@ Global
 		{2E39D851-71BE-4C17-BBB5-D672E5FDFDF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E39D851-71BE-4C17-BBB5-D672E5FDFDF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E39D851-71BE-4C17-BBB5-D672E5FDFDF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C529381E-E18B-44D1-9967-02DAB07ED833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C529381E-E18B-44D1-9967-02DAB07ED833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C529381E-E18B-44D1-9967-02DAB07ED833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C529381E-E18B-44D1-9967-02DAB07ED833}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,6 +114,7 @@ Global
 		{3BB150F3-AF17-474C-AD76-1341B214C071} = {BD342ECD-59DA-411C-AFE7-FE6E1548B76B}
 		{1CDCB315-0612-4BB5-8320-584843DF3D95} = {BD342ECD-59DA-411C-AFE7-FE6E1548B76B}
 		{2E39D851-71BE-4C17-BBB5-D672E5FDFDF6} = {58A36FBA-B46B-4EA1-B4FA-A74481838BB9}
+		{C529381E-E18B-44D1-9967-02DAB07ED833} = {BD342ECD-59DA-411C-AFE7-FE6E1548B76B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C543C067-C065-4634-B1C5-EC87A581B4A1}

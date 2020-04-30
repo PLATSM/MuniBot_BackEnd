@@ -22,3 +22,15 @@ D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Infrastructure.Data\obj\Debug\netstan
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Infrastructure.Data\obj\Debug\netstandard2.0\Infrastructure.Data.csproj.CopyComplete
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Infrastructure.Data\obj\Debug\netstandard2.0\Infrastructure.Data.dll
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Infrastructure.Data\obj\Debug\netstandard2.0\Infrastructure.Data.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Data\bin\Debug\netstandard2.0\Infrastructure.Data.deps.json
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Data\bin\Debug\netstandard2.0\Infrastructure.Data.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Data\bin\Debug\netstandard2.0\Infrastructure.Data.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Data\bin\Debug\netstandard2.0\Transversal.Common.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Data\bin\Debug\netstandard2.0\Transversal.Common.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Data\obj\Debug\netstandard2.0\Infrastructure.Data.csprojAssemblyReference.cache
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Data\obj\Debug\netstandard2.0\Infrastructure.Data.csproj.CoreCompileInputs.cache
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Data\obj\Debug\netstandard2.0\Infrastructure.Data.AssemblyInfoInputs.cache
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Data\obj\Debug\netstandard2.0\Infrastructure.Data.AssemblyInfo.cs
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Data\obj\Debug\netstandard2.0\Infrastructure.Data.csproj.CopyComplete
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Data\obj\Debug\netstandard2.0\Infrastructure.Data.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Data\obj\Debug\netstandard2.0\Infrastructure.Data.pdb

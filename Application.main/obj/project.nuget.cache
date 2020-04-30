@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0R8UWvDUdlKsSq9CUnzQwuc6Q8bGbkUARi18f5LRgd/tH+/W4byP5RrREYZmwSGd+KF2N248nnKPBROO0xihNQ==",
+  "dgSpecHash": "GSrYQnwSyHTJ02q0ciDpbf3ZmCRkAJhHD6k91ybmBWT6M91kRP3QlQuLdxShTn0CltA8Y3Zajng0mkJFEKIAwA==",
   "success": true,
-  "projectFilePath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd 2017\\Application.main\\Application.Main.csproj",
+  "projectFilePath": "D:\\UPC\\Proyecto Tesis\\MuniBot_BackEnd .NET 3.0\\Application.main\\Application.Main.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ricardo\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

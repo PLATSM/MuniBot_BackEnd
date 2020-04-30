@@ -37,12 +37,14 @@
           "Infrastructure.Repository": "1.0.0",
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
+          "Microsoft.Extensions.Logging": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0",
           "Swashbuckle.AspNetCore": "5.3.1",
           "Swashbuckle.AspNetCore.Swagger": "5.3.1",
           "Swashbuckle.AspNetCore.SwaggerGen": "5.3.1",
           "Swashbuckle.AspNetCore.SwaggerUI": "5.3.1",
           "Transversal.Common": "1.0.0",
+          "Transversal.Logging": "1.0.0",
           "Transversal.Mapper": "1.0.0"
         },
         "runtime": {
@@ -675,6 +677,18 @@
         },
         "compile": {
           "Transversal.Common.dll": {}
+        }
+      },
+      "Transversal.Logging/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "2.2.0",
+          "Transversal.Common": "1.0.0"
+        },
+        "runtime": {
+          "Transversal.Logging.dll": {}
+        },
+        "compile": {
+          "Transversal.Logging.dll": {}
         }
       },
       "Transversal.Mapper/1.0.0": {
@@ -3885,6 +3899,11 @@
       "sha512": ""
     },
     "Transversal.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Transversal.Logging/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -10,6 +10,7 @@ namespace MuniBot_BackEnd.Transversal.Mapper
         public MappingsProfile()
         {
             CreateMap<Contribuyente, ContribuyenteDTO>().ReverseMap();
+			CreateMap<SolicitudLicencia, SolicitudLicenciaDTO>().ReverseMap();
 
             //CreateMap<Contribuyente, ContribuyenteDTO>().ReverseMap()
             //    .ForMember(destino => destino.id_contribuyente, source => source.MapFrom(origen => origen.id_contribuyente))

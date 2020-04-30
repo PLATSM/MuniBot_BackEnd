@@ -2,6 +2,8 @@
 using MuniBot_BackEnd.Domain.Entity;
 using MuniBot_BackEnd.Domain.Interface;
 using MuniBot_BackEnd.Infrastructure.Interface;
+using MuniBot_BackEnd.Transversal.Common;
+
 using System.Threading.Tasks;
 using System.Collections.Generic;
 
@@ -51,17 +53,17 @@ namespace MuniBot_BackEnd.Domain.Core
 
         #region Métodos Asincronos
 
-        public async Task<bool> InsertAsync(Contribuyente contribuyente)
+        public async Task<ResponseQuery> InsertAsync(Contribuyente contribuyente)
         {
             return await _contribuyenteRepository.InsertAsync(contribuyente);
         }
 
-        public async Task<bool> UpdateAsync(Contribuyente contribuyente)
+        public async Task<ResponseQuery> UpdateAsync(Contribuyente contribuyente)
         {
             return await _contribuyenteRepository.UpdateAsync(contribuyente);
         }
 
-        public async Task<bool> DeleteAsync(Contribuyente contribuyente)
+        public async Task<ResponseQuery> DeleteAsync(Contribuyente contribuyente)
         {
             return await _contribuyenteRepository.DeleteAsync(contribuyente);
         }
@@ -71,9 +73,9 @@ namespace MuniBot_BackEnd.Domain.Core
             return await _contribuyenteRepository.GetAsync(id_contribuyente);
         }
 
-        public async Task<Contribuyente> GetLoginAsync(string co_usuario, string no_contrasena)
+        public async Task<Contribuyente> GetLoginAsync(string co_documento_identidad, string nu_documento_identidad, string no_contrasena)
         {
-            return await _contribuyenteRepository.GetLoginAsync(co_usuario, no_contrasena);
+            return await _contribuyenteRepository.GetLoginAsync(co_documento_identidad, nu_documento_identidad, no_contrasena);
         }
 
         public async Task<IEnumerable<Contribuyente>> GetAllAsync(Contribuyente contribuyente)

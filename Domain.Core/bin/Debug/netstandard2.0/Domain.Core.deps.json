@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "cfe1dc2a80602aef150a12815387068463a61a0d"
+    "signature": ""
   },
   "compilationOptions": {},
   "targets": {
@@ -12,7 +12,8 @@
           "Domain.Entity": "1.0.0",
           "Domain.Interface": "1.0.0",
           "Infrastructure.Interface": "1.0.0",
-          "NETStandard.Library": "2.0.3"
+          "NETStandard.Library": "2.0.3",
+          "Transversal.Common": "1.0.0"
         },
         "runtime": {
           "Domain.Core.dll": {}
@@ -31,7 +32,8 @@
       },
       "Domain.Interface/1.0.0": {
         "dependencies": {
-          "Domain.Entity": "1.0.0"
+          "Domain.Entity": "1.0.0",
+          "Transversal.Common": "1.0.0"
         },
         "runtime": {
           "Domain.Interface.dll": {}
@@ -39,10 +41,16 @@
       },
       "Infrastructure.Interface/1.0.0": {
         "dependencies": {
-          "Domain.Entity": "1.0.0"
+          "Domain.Entity": "1.0.0",
+          "Transversal.Common": "1.0.0"
         },
         "runtime": {
           "Infrastructure.Interface.dll": {}
+        }
+      },
+      "Transversal.Common/1.0.0": {
+        "runtime": {
+          "Transversal.Common.dll": {}
         }
       }
     }
@@ -78,6 +86,11 @@
       "sha512": ""
     },
     "Infrastructure.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Transversal.Common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

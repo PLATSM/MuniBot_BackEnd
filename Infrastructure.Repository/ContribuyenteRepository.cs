@@ -183,20 +183,22 @@ namespace MuniBot_BackEnd.Infrastructure.Repository
 
         #region Métodos Asíncronos
 
-        public async Task<bool> InsertAsync(Contribuyente contribuyente)
+        public async Task<ResponseQuery> InsertAsync(Contribuyente contribuyente)
         {
+            ResponseQuery responseQuery = new ResponseQuery();
+
             using (var connection = _connectionFactory.GetConnection)
             {
                 var query = "spi_mae_contribuyente";
                 var parameters = new DynamicParameters();
                 parameters.Add("@pi_id_empresa", contribuyente.id_empresa);
-                parameters.Add("@pi_co_tipo_persona", contribuyente.co_tipo_persona);
                 parameters.Add("@pi_co_documento_identidad", contribuyente.co_documento_identidad);
                 parameters.Add("@pi_nu_documento_identidad", contribuyente.nu_documento_identidad);
                 parameters.Add("@pi_no_nombres", contribuyente.no_nombres);
                 parameters.Add("@pi_no_apellido_paterno", contribuyente.no_apellido_paterno);
                 parameters.Add("@pi_no_apellido_materno", contribuyente.no_apellido_materno);
                 parameters.Add("@pi_no_razon_social", contribuyente.no_razon_social);
+                parameters.Add("@pi_nu_telefono", contribuyente.nu_telefono);
                 parameters.Add("@pi_no_correo_electronico", contribuyente.no_correo_electronico);
                 parameters.Add("@pi_no_contrasena", contribuyente.no_contrasena);
                 parameters.Add("@pi_id_usuario_login", contribuyente.id_usuario_creacion);
@@ -205,16 +207,19 @@ namespace MuniBot_BackEnd.Infrastructure.Repository
                 parameters.Add("@po_error_message", "", direction: ParameterDirection.Output);
 
                 await connection.ExecuteAsync(query, param: parameters, commandType: CommandType.StoredProcedure);
-                var id_contribuyente = parameters.Get<int>("@po_id_contribuyente");
-                var error_number = parameters.Get<int>("@po_error_number");
-                var error_message = parameters.Get<string>("@po_error_message");
 
-                return error_number >= 0;
+                responseQuery.id_identity = parameters.Get<int>("@po_id_contribuyente");
+                responseQuery.error_number = parameters.Get<int>("@po_error_number");
+                responseQuery.error_message = parameters.Get<string>("@po_error_message");
+
+                return responseQuery;
             }
         }
 
-        public async Task<bool> UpdateAsync(Contribuyente contribuyente)
+        public async Task<ResponseQuery> UpdateAsync(Contribuyente contribuyente)
         {
+            ResponseQuery responseQuery = new ResponseQuery();
+
             using (var connection = _connectionFactory.GetConnection)
             {
                 var query = "spu_mae_contribuyente";
@@ -233,16 +238,18 @@ namespace MuniBot_BackEnd.Infrastructure.Repository
                 parameters.Add("@po_error_number", 0, direction: ParameterDirection.Output);
                 parameters.Add("@po_error_message", "", direction: ParameterDirection.Output);
 
-                var result = await connection.ExecuteAsync(query, param: parameters, commandType: CommandType.StoredProcedure);
-                var error_number = parameters.Get<int>("@po_error_number");
-                var error_message = parameters.Get<string>("@po_error_message");
+                await connection.ExecuteAsync(query, param: parameters, commandType: CommandType.StoredProcedure);
+                responseQuery.error_number = parameters.Get<int>("@po_error_number");
+                responseQuery.error_message = parameters.Get<string>("@po_error_message");
 
-                return error_number >= 0;
+                return responseQuery;
             }
         }
 
-        public async Task<bool> DeleteAsync(Contribuyente contribuyente)
+        public async Task<ResponseQuery> DeleteAsync(Contribuyente contribuyente)
         {
+            ResponseQuery responseQuery = new ResponseQuery();
+
             using (var connection = _connectionFactory.GetConnection)
             {
                 var query = "spd_mae_contribuyente";
@@ -252,11 +259,11 @@ namespace MuniBot_BackEnd.Infrastructure.Repository
                 parameters.Add("@po_error_number", 0, direction: ParameterDirection.Output);
                 parameters.Add("@po_error_message", "", direction: ParameterDirection.Output);
 
-                var result = await connection.ExecuteAsync(query, param: parameters, commandType: CommandType.StoredProcedure);
-                var error_number = parameters.Get<int>("@po_error_number");
-                var error_message = parameters.Get<string>("@po_error_message");
+                await connection.ExecuteAsync(query, param: parameters, commandType: CommandType.StoredProcedure);
+                responseQuery.error_number = parameters.Get<int>("@po_error_number");
+                responseQuery.error_message = parameters.Get<string>("@po_error_message");
 
-                return error_number >= 0;
+                return responseQuery;
             }
         }
 
@@ -287,13 +294,14 @@ namespace MuniBot_BackEnd.Infrastructure.Repository
             }
         }
 
-        public async Task<Contribuyente> GetLoginAsync(string co_usuario, string no_contrasena)
+        public async Task<Contribuyente> GetLoginAsync(string co_documento_identidad, string nu_documento_identidad, string no_contrasena)
         {
             using (var connection = _connectionFactory.GetConnection)
             {
                 var query = "sps_mae_contribuyente_login";
                 var parameters = new DynamicParameters();
-                parameters.Add("@pi_co_usuario", co_usuario);
+                parameters.Add("@pi_co_documento_identidad", co_documento_identidad);
+                parameters.Add("@pi_nu_documento_identidad", nu_documento_identidad);
                 parameters.Add("@pi_no_contrasena", no_contrasena);
                 parameters.Add("@po_error_number", 0, direction: ParameterDirection.Output);
                 parameters.Add("@po_error_message", "", direction: ParameterDirection.Output);

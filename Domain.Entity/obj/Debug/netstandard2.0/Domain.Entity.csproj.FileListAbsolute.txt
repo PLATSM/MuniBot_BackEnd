@@ -1,7 +1,6 @@
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Domain.Entity\bin\Debug\netstandard2.0\Domain.Entity.deps.json
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Domain.Entity\bin\Debug\netstandard2.0\Domain.Entity.dll
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Domain.Entity\bin\Debug\netstandard2.0\Domain.Entity.pdb
-D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Domain.Entity\obj\Debug\netstandard2.0\Domain.Entity.csprojAssemblyReference.cache
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Domain.Entity\obj\Debug\netstandard2.0\Domain.Entity.csproj.CoreCompileInputs.cache
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Domain.Entity\obj\Debug\netstandard2.0\Domain.Entity.AssemblyInfoInputs.cache
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd\Domain.Entity\obj\Debug\netstandard2.0\Domain.Entity.AssemblyInfo.cs
@@ -15,3 +14,11 @@ D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Domain.Entity\obj\Debug\netstandard2.
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Domain.Entity\obj\Debug\netstandard2.0\Domain.Entity.AssemblyInfo.cs
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Domain.Entity\obj\Debug\netstandard2.0\Domain.Entity.dll
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Domain.Entity\obj\Debug\netstandard2.0\Domain.Entity.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Domain.Entity\bin\Debug\netstandard2.0\Domain.Entity.deps.json
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Domain.Entity\bin\Debug\netstandard2.0\Domain.Entity.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Domain.Entity\bin\Debug\netstandard2.0\Domain.Entity.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Domain.Entity\obj\Debug\netstandard2.0\Domain.Entity.csproj.CoreCompileInputs.cache
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Domain.Entity\obj\Debug\netstandard2.0\Domain.Entity.AssemblyInfoInputs.cache
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Domain.Entity\obj\Debug\netstandard2.0\Domain.Entity.AssemblyInfo.cs
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Domain.Entity\obj\Debug\netstandard2.0\Domain.Entity.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Domain.Entity\obj\Debug\netstandard2.0\Domain.Entity.pdb

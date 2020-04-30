@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "c964fb1b2c7423062340f907c9ce24651f49a93d"
+    "signature": ""
   },
   "compilationOptions": {},
   "targets": {
@@ -61,7 +61,8 @@
       },
       "Infrastructure.Interface/1.0.0": {
         "dependencies": {
-          "Domain.Entity": "1.0.0"
+          "Domain.Entity": "1.0.0",
+          "Transversal.Common": "1.0.0"
         },
         "runtime": {
           "Infrastructure.Interface.dll": {}

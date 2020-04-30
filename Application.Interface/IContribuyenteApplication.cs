@@ -22,12 +22,12 @@ namespace MuniBot_BackEnd.Application.Interface
         #endregion
 
         #region Métodos Asíncronos
-        Task<Response<bool>> InsertAsync(ContribuyenteDTO contribuyenteDTO);
-        Task<Response<bool>> UpdateAsync(ContribuyenteDTO contribuyenteDTO);
-        Task<Response<bool>> DeleteAsync(ContribuyenteDTO contribuyenteDTO);
+        Task<ResponseQuery> InsertAsync(ContribuyenteDTO contribuyenteDTO);
+        Task<ResponseQuery> UpdateAsync(ContribuyenteDTO contribuyenteDTO);
+        Task<ResponseQuery> DeleteAsync(ContribuyenteDTO contribuyenteDTO);
 
         Task<Response<ContribuyenteDTO>> GetAsync(int id_contribuyenteDTO);
-        Task<Response<ContribuyenteDTO>> GetLoginAsync(string co_usuario, string no_contrasena);
+        Task<Response<ContribuyenteDTO>> GetLoginAsync(string co_documento_identidad, string nu_documento_identidad, string no_contrasena);
         Task<Response<IEnumerable<ContribuyenteDTO>>> GetAllAsync(ContribuyenteDTO contribuyenteDTO);
         #endregion
 

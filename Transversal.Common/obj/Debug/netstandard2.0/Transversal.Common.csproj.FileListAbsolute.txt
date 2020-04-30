@@ -14,3 +14,11 @@ D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Transversal.Common\obj\Debug\netstand
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Transversal.Common\obj\Debug\netstandard2.0\Transversal.Common.AssemblyInfo.cs
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Transversal.Common\obj\Debug\netstandard2.0\Transversal.Common.dll
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Transversal.Common\obj\Debug\netstandard2.0\Transversal.Common.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Common\bin\Debug\netstandard2.0\Transversal.Common.deps.json
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Common\bin\Debug\netstandard2.0\Transversal.Common.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Common\bin\Debug\netstandard2.0\Transversal.Common.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Common\obj\Debug\netstandard2.0\Transversal.Common.csproj.CoreCompileInputs.cache
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Common\obj\Debug\netstandard2.0\Transversal.Common.AssemblyInfoInputs.cache
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Common\obj\Debug\netstandard2.0\Transversal.Common.AssemblyInfo.cs
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Common\obj\Debug\netstandard2.0\Transversal.Common.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Common\obj\Debug\netstandard2.0\Transversal.Common.pdb

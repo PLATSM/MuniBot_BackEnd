@@ -26,3 +26,17 @@ D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Transversal.Mapper\obj\Debug\netstand
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Transversal.Mapper\obj\Debug\netstandard2.0\Transversal.Mapper.csproj.CopyComplete
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Transversal.Mapper\obj\Debug\netstandard2.0\Transversal.Mapper.dll
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd 2017\Transversal.Mapper\obj\Debug\netstandard2.0\Transversal.Mapper.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Mapper\bin\Debug\netstandard2.0\Transversal.Mapper.deps.json
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Mapper\bin\Debug\netstandard2.0\Transversal.Mapper.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Mapper\bin\Debug\netstandard2.0\Transversal.Mapper.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Mapper\bin\Debug\netstandard2.0\Application.DTO.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Mapper\bin\Debug\netstandard2.0\Domain.Entity.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Mapper\bin\Debug\netstandard2.0\Application.DTO.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Mapper\bin\Debug\netstandard2.0\Domain.Entity.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Mapper\obj\Debug\netstandard2.0\Transversal.Mapper.csprojAssemblyReference.cache
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Mapper\obj\Debug\netstandard2.0\Transversal.Mapper.csproj.CoreCompileInputs.cache
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Mapper\obj\Debug\netstandard2.0\Transversal.Mapper.AssemblyInfoInputs.cache
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Mapper\obj\Debug\netstandard2.0\Transversal.Mapper.AssemblyInfo.cs
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Mapper\obj\Debug\netstandard2.0\Transversal.Mapper.csproj.CopyComplete
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Mapper\obj\Debug\netstandard2.0\Transversal.Mapper.dll
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Mapper\obj\Debug\netstandard2.0\Transversal.Mapper.pdb

@@ -22,6 +22,8 @@ using MuniBot_BackEnd.Infrastructure.Interface;
 using MuniBot_BackEnd.Infrastructure.Repository;
 using MuniBot_BackEnd.Transversal.Common;
 using MuniBot_BackEnd.Transversal.Mapper;
+using MuniBot_BackEnd.Transversal.Logging;
+
 using Microsoft.OpenApi.Models;
 using System.Reflection;
 using System.IO;
@@ -29,6 +31,7 @@ using Services.WebApi.Helpers;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.Extensions.Hosting;
 
 namespace Services.WebApi
 {
@@ -44,9 +47,15 @@ namespace Services.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddAutoMapper(x => x.AddProfile(new MappingsProfile()));
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
-                .AddJsonOptions(Options => { Options.SerializerSettings.ContractResolver = new Newtonsoft.Json.Serialization.DefaultContractResolver(); });
+            // Auto Mapper Configurations
+            var mappingConfig = new MapperConfiguration(mc =>
+            {
+                mc.AddProfile(new MappingsProfile());
+            });
+            IMapper mapper = mappingConfig.CreateMapper();
+            services.AddSingleton(mapper);
+
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Latest);
 
             var appSettingsSection = Configuration.GetSection("Config");
             services.Configure<AppSettings>(appSettingsSection);
@@ -57,9 +66,16 @@ namespace Services.WebApi
 
             services.AddSingleton<IConfiguration>(Configuration);
             services.AddSingleton<IConnectionFactory, ConnectionFactory>();
+
             services.AddScoped<IContribuyenteApplication, ContribuyenteApplication>();
             services.AddScoped<IContribuyenteDomain, ContribuyenteDomain>();
             services.AddScoped<IContribuyenteRepository, ContribuyenteRepository>();
+
+            services.AddScoped<ISolicitudLicenciaApplication, SolicitudLicenciaApplication>();
+            services.AddScoped<ISolicitudLicenciaDomain, SolicitudLicenciaDomain>();
+            services.AddScoped<ISolicitudLicenciaRepository, SolicitudLicenciaRepository>();
+
+            services.AddScoped(typeof(IAppLogger<>), typeof(LoggerAdapter<>));
 
             var key = Encoding.ASCII.GetBytes(appSettings.Secret);
             var Issuer = appSettings.Issuer;
@@ -133,7 +149,7 @@ namespace Services.WebApi
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
                 c.IncludeXmlComments(xmlPath);
 
-                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme // Bearer significa que nuestra API soporta token del tipo portador
                 {
                     Description = "Authorization by API key.",
                     In = ParameterLocation.Header,
@@ -159,7 +175,7 @@ namespace Services.WebApi
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-            public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+            public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
@@ -171,6 +187,8 @@ namespace Services.WebApi
                 app.UseHsts();
             }
 
+            app.UseRouting();
+            // Enable middleware to serve generated Swagger as a JSON endpoint.
             app.UseSwagger();
 
             // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.), 
@@ -180,11 +198,17 @@ namespace Services.WebApi
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API MuniBot V1");
             });
 
+            //app.UseSwaggerUI(typeof(Startup).GetTypeInfo().Assembly,new SwaggerUiOwinSetting());
+
             //app.UseHttpsRedirection();
             app.UseAuthentication();
-            //app.UseAuthorization();
+            app.UseAuthorization();
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
 
-            app.UseMvc();
+
         }
     }
 }

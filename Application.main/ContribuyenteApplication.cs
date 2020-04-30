@@ -14,11 +14,13 @@ namespace MuniBot_BackEnd.Application.Main
     {
         private readonly IContribuyenteDomain _contribuyenteDomain;
         private readonly IMapper _mapper;
+        private readonly IAppLogger<ContribuyenteApplication> _logger;
 
-        public ContribuyenteApplication(IContribuyenteDomain contribuyenteDomain, IMapper mapper)
+        public ContribuyenteApplication(IContribuyenteDomain contribuyenteDomain, IMapper mapper, IAppLogger<ContribuyenteApplication> logger)
         {
             _contribuyenteDomain = contribuyenteDomain;
             _mapper = mapper;
+            _logger = logger;
         }
 
         #region Métodos Síncronos
@@ -33,12 +35,12 @@ namespace MuniBot_BackEnd.Application.Main
                 if (response.Data)
                 {
                     response.IsSuccess = true;
-                    response.Message = "Registro Exitoso!!!";
+                    response.error_message = "Registro Exitoso!!!";
                 }
             }
             catch (Exception e)
             {
-                response.Message = e.Message;
+                response.error_message = e.Message;
             }
             return response;
         }
@@ -52,12 +54,12 @@ namespace MuniBot_BackEnd.Application.Main
                 if (response.Data)
                 {
                     response.IsSuccess = true;
-                    response.Message = "Actualización Exitosa!!!";
+                    response.error_message = "Actualización Exitosa!!!";
                 }
             }
             catch (Exception e)
             {
-                response.Message = e.Message;
+                response.error_message = e.Message;
             }
             return response;
         }
@@ -71,12 +73,12 @@ namespace MuniBot_BackEnd.Application.Main
                 if (response.Data)
                 {
                     response.IsSuccess = true;
-                    response.Message = "Eliminación Exitosa!!!";
+                    response.error_message = "Eliminación Exitosa!!!";
                 }
             }
             catch (Exception e)
             {
-                response.Message = e.Message;
+                response.error_message = e.Message;
             }
             return response;
         }
@@ -91,12 +93,12 @@ namespace MuniBot_BackEnd.Application.Main
                 if (response.Data != null)
                 {
                     response.IsSuccess = true;
-                    response.Message = "Consulta Exitosa!!!";
+                    response.error_message = "Consulta Exitosa!!!";
                 }
             }
             catch (Exception e)
             {
-                response.Message = e.Message;
+                response.error_message = e.Message;
             }
             return response;
         }
@@ -106,7 +108,7 @@ namespace MuniBot_BackEnd.Application.Main
             var response = new Response<ContribuyenteDTO>();
             if (string.IsNullOrEmpty(co_usuario) || string.IsNullOrEmpty(no_contrasena))
             {
-                response.Message = "Parámetros no pueden ser vácios";
+                response.error_message = "Parámetros no pueden ser vácios";
                 return response;
             }
             
@@ -117,17 +119,17 @@ namespace MuniBot_BackEnd.Application.Main
                 if (response.Data != null)
                 {
                     response.IsSuccess = true;
-                    response.Message = "Autenticación Exitosa!!!";
+                    response.error_message = "Autenticación Exitosa!!!";
                 }
             }
             catch (InvalidOperationException)
             {
                 response.IsSuccess = true;
-                response.Message = "Contribuyente no existe.";
+                response.error_message = "Contribuyente no existe.";
             }
             catch (Exception e)
             {
-                response.Message = e.Message;
+                response.error_message = e.Message;
             }
             return response;
         }
@@ -143,12 +145,14 @@ namespace MuniBot_BackEnd.Application.Main
                 if (response.Data != null)
                 {
                     response.IsSuccess = true;
-                    response.Message = "Consulta Exitosa!!!";
+                    response.error_message = "Consulta Exitosa!!!";
+                    _logger.LogInformation("Consulta Exitosa!!!");
                 }
             }
             catch (Exception e)
             {
-                response.Message = e.Message;
+                response.error_message = e.Message;
+                _logger.LogError(e.Message);
             }
             return response;
         }
@@ -156,68 +160,57 @@ namespace MuniBot_BackEnd.Application.Main
         #endregion
 
         #region Métodos Asíncronos
-        public async Task<Response<bool>> InsertAsync(ContribuyenteDTO contribuyenteDTO)
+        public async Task<ResponseQuery> InsertAsync(ContribuyenteDTO contribuyenteDTO)
         {
-            var response = new Response<bool>();
+            ResponseQuery responseQuery = new ResponseQuery();
             try
             {
                 var contribuyente = _mapper.Map<Contribuyente>(contribuyenteDTO);
-                response.Data = await _contribuyenteDomain.InsertAsync(contribuyente);
-                if (response.Data)
-                {
-                    response.IsSuccess = true;
-                    response.Message = "Registro Exitoso!!!";
-                }
+                responseQuery = await _contribuyenteDomain.InsertAsync(contribuyente);
             }
             catch (Exception e)
             {
-                response.Message = e.Message;
+                responseQuery.error_number = -1;
+                responseQuery.error_message = e.Message;
             }
-            return response;
+            return responseQuery;
         }
 
-        public async Task<Response<bool>> UpdateAsync(ContribuyenteDTO contribuyenteDTO)
+        public async Task<ResponseQuery> UpdateAsync(ContribuyenteDTO contribuyenteDTO)
         {
-            var response = new Response<bool>();
+            ResponseQuery responseQuery = new ResponseQuery();
             try
             {
                 var contribuyente = _mapper.Map<Contribuyente>(contribuyenteDTO);
-                response.Data = await _contribuyenteDomain.UpdateAsync(contribuyente);
-                if (response.Data)
-                {
-                    response.IsSuccess = true;
-                    response.Message = "Actualización Exitosa!!!";
-                }
+                responseQuery = await _contribuyenteDomain.UpdateAsync(contribuyente);
             }
             catch (Exception e)
             {
-                response.Message = e.Message;
+                responseQuery.error_number = -1;
+                responseQuery.error_message = e.Message;
             }
-            return response;
+            return responseQuery;
         }
-        public async Task<Response<bool>> DeleteAsync(ContribuyenteDTO contribuyenteDTO)
+        public async Task<ResponseQuery> DeleteAsync(ContribuyenteDTO contribuyenteDTO)
         {
-            var response = new Response<bool>();
+            ResponseQuery responseQuery = new ResponseQuery();
             try
             {
                 var contribuyente = _mapper.Map<Contribuyente>(contribuyenteDTO);
-                response.Data = await _contribuyenteDomain.DeleteAsync(contribuyente);
-                if (response.Data)
-                {
-                    response.IsSuccess = true;
-                    response.Message = "Eliminación Exitosa!!!";
-                }
+                responseQuery = await _contribuyenteDomain.DeleteAsync(contribuyente);
             }
             catch (Exception e)
             {
-                response.Message = e.Message;
+                responseQuery.error_number = -1;
+                responseQuery.error_message = e.Message;
             }
-            return response;
+            return responseQuery;
         }
 
         public async Task<Response<ContribuyenteDTO>> GetAsync(int id_contribuyente)
         {
             var response = new Response<ContribuyenteDTO>();
+
             try
             {
                 var contribuyente = await _contribuyenteDomain.GetAsync(id_contribuyente);
@@ -225,43 +218,58 @@ namespace MuniBot_BackEnd.Application.Main
                 if (response.Data != null)
                 {
                     response.IsSuccess = true;
-                    response.Message = "Consulta Exitosa!!!";
+                    response.error_number = response.Data.error_number;
+                    response.error_message = response.Data.error_message;
+                }
+                else
+                {
+                    response.IsSuccess = false;
+                    response.error_number = -1;
+                    response.error_message = "Ha ocurrido un error.";
                 }
             }
             catch (Exception e)
             {
-                response.Message = e.Message;
+                response.IsSuccess = false;
+                response.error_number = -1;
+                response.error_message = e.Message;
             }
             return response;
         }
 
-        public async Task<Response<ContribuyenteDTO>> GetLoginAsync(string co_usuario, string no_contrasena)
+        public async Task<Response<ContribuyenteDTO>> GetLoginAsync(string co_documento_identidad, string nu_documento_identidad, string no_contrasena)
         {
             var response = new Response<ContribuyenteDTO>();
-            if (string.IsNullOrEmpty(co_usuario) || string.IsNullOrEmpty(no_contrasena))
+
+            if (string.IsNullOrEmpty(co_documento_identidad) || string.IsNullOrEmpty(nu_documento_identidad) || string.IsNullOrEmpty(no_contrasena))
             {
-                response.Message = "Parámetros no pueden ser vácios";
+                response.error_number = -1;
+                response.error_message = "Parámetros no pueden ser vácios";
                 return response;
             }
 
             try
             {
-                var contribuyente = await _contribuyenteDomain.GetLoginAsync(co_usuario, no_contrasena);
+                var contribuyente = await _contribuyenteDomain.GetLoginAsync(co_documento_identidad, nu_documento_identidad, no_contrasena);
                 response.Data = _mapper.Map<ContribuyenteDTO>(contribuyente);
                 if (response.Data != null)
                 {
                     response.IsSuccess = true;
-                    response.Message = "Autenticación Exitosa!!!";
+                    response.error_number = response.Data.error_number;
+                    response.error_message = response.Data.error_message;
                 }
-            }
-            catch (InvalidOperationException)
-            {
-                response.IsSuccess = true;
-                response.Message = "Contribuyente no existe.";
+                else
+                {
+                    response.IsSuccess = false;
+                    response.error_number = -1;
+                    response.error_message = "Ha ocurrido un error.";
+                }
             }
             catch (Exception e)
             {
-                response.Message = e.Message;
+                response.IsSuccess = false;
+                response.error_number = -1;
+                response.error_message = e.Message;
             }
             return response;
         }
@@ -278,12 +286,12 @@ namespace MuniBot_BackEnd.Application.Main
                 if (response.Data != null)
                 {
                     response.IsSuccess = true;
-                    response.Message = "Consulta Exitosa!!!";
+                    response.error_message = "Consulta Exitosa!!!";
                 }
             }
             catch (Exception e)
             {
-                response.Message = e.Message;
+                response.error_message = e.Message;
             }
             return response;
         }
