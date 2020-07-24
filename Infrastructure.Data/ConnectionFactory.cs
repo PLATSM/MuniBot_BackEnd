@@ -1,8 +1,7 @@
-﻿using System;
-using MuniBot_BackEnd.Transversal.Common;
-using Microsoft.Extensions.Configuration;
+﻿using System.Data;
 using System.Data.SqlClient;
-using System.Data;
+using Microsoft.Extensions.Configuration;
+using MuniBot_BackEnd.Transversal.Common;
 
 namespace MuniBot_BackEnd.Infrastructure.Data
 {
@@ -27,6 +26,5 @@ namespace MuniBot_BackEnd.Infrastructure.Data
                 return sqlConnection;
             }
         }
-
     }
 }

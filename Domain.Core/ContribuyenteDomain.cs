@@ -1,11 +1,9 @@
-﻿using System;
+﻿using System.Threading.Tasks;
+using System.Collections.Generic;
 using MuniBot_BackEnd.Domain.Entity;
 using MuniBot_BackEnd.Domain.Interface;
 using MuniBot_BackEnd.Infrastructure.Interface;
 using MuniBot_BackEnd.Transversal.Common;
-
-using System.Threading.Tasks;
-using System.Collections.Generic;
 
 namespace MuniBot_BackEnd.Domain.Core
 {
@@ -19,17 +17,17 @@ namespace MuniBot_BackEnd.Domain.Core
         }
         #region Métodos Sincronos
 
-        public bool Insert(Contribuyente contribuyente)
+        public ResponseQuery Insert(Contribuyente contribuyente)
         {
             return _contribuyenteRepository.Insert(contribuyente);
         }
 
-        public bool Update(Contribuyente contribuyente)
+        public ResponseQuery Update(Contribuyente contribuyente)
         {
             return _contribuyenteRepository.Update(contribuyente);
         }
 
-        public bool Delete(Contribuyente contribuyente)
+        public ResponseQuery Delete(Contribuyente contribuyente)
         {
             return _contribuyenteRepository.Delete(contribuyente);
         }
@@ -39,9 +37,9 @@ namespace MuniBot_BackEnd.Domain.Core
             return _contribuyenteRepository.Get(id_contribuyente);
         }
 
-        public Contribuyente GetLogin(string co_usuario, string no_contrasena)
+        public Contribuyente GetLogin(int id_empresa, string co_documento_identidad, string nu_documento_identidad, string no_contrasena)
         {
-            return _contribuyenteRepository.GetLogin(co_usuario, no_contrasena);
+            return _contribuyenteRepository.GetLogin(id_empresa, co_documento_identidad, nu_documento_identidad, no_contrasena);
         }
 
         public IEnumerable<Contribuyente> GetAll(Contribuyente contribuyente)
@@ -72,10 +70,13 @@ namespace MuniBot_BackEnd.Domain.Core
         {
             return await _contribuyenteRepository.GetAsync(id_contribuyente);
         }
-
-        public async Task<Contribuyente> GetLoginAsync(string co_documento_identidad, string nu_documento_identidad, string no_contrasena)
+        public async Task<DataJson> GetJsonAsync(int id_contribuyente)
         {
-            return await _contribuyenteRepository.GetLoginAsync(co_documento_identidad, nu_documento_identidad, no_contrasena);
+            return await _contribuyenteRepository.GetJsonAsync(id_contribuyente);
+        }
+        public async Task<Contribuyente> GetLoginAsync(int id_empresa, string co_documento_identidad, string nu_documento_identidad, string no_contrasena)
+        {
+            return await _contribuyenteRepository.GetLoginAsync(id_empresa, co_documento_identidad, nu_documento_identidad, no_contrasena);
         }
 
         public async Task<IEnumerable<Contribuyente>> GetAllAsync(Contribuyente contribuyente)

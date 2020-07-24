@@ -176,13 +176,13 @@ namespace MuniBot_BackEnd.Application.Main
             return responseQuery;
         }
 
-        public async Task<Response<SolicitudLicenciaDTO>> GetAsync(int id_solicitudLicencia)
+        public async Task<Response<SolicitudLicenciaDTO>> GetAsync(int id_solicitudLicencia, int id_contribuyente, string nu_solicitud_licencia)
         {
             var response = new Response<SolicitudLicenciaDTO>();
 
             try
             {
-                var solicitudLicencia = await _solicitudLicenciaDomain.GetAsync(id_solicitudLicencia);
+                var solicitudLicencia = await _solicitudLicenciaDomain.GetAsync(id_solicitudLicencia, id_contribuyente, nu_solicitud_licencia);
                 response.Data = _mapper.Map<SolicitudLicenciaDTO>(solicitudLicencia);
                 if (response.Data != null)
                 {

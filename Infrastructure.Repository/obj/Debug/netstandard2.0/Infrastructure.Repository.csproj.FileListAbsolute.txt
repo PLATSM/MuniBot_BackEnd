@@ -40,9 +40,9 @@ D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Repository\bin\Deb
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Repository\bin\Debug\netstandard2.0\Transversal.Common.pdb
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Repository\bin\Debug\netstandard2.0\Domain.Entity.pdb
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Repository\obj\Debug\netstandard2.0\Infrastructure.Repository.csprojAssemblyReference.cache
-D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Repository\obj\Debug\netstandard2.0\Infrastructure.Repository.csproj.CoreCompileInputs.cache
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Repository\obj\Debug\netstandard2.0\Infrastructure.Repository.AssemblyInfoInputs.cache
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Repository\obj\Debug\netstandard2.0\Infrastructure.Repository.AssemblyInfo.cs
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Repository\obj\Debug\netstandard2.0\Infrastructure.Repository.csproj.CoreCompileInputs.cache
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Repository\obj\Debug\netstandard2.0\Infrastructure.Repository.csproj.CopyComplete
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Repository\obj\Debug\netstandard2.0\Infrastructure.Repository.dll
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Infrastructure.Repository\obj\Debug\netstandard2.0\Infrastructure.Repository.pdb

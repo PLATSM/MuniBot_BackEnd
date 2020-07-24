@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-
-using MuniBot_BackEnd.Transversal.Common;
 using MuniBot_BackEnd.Domain.Entity;
+using MuniBot_BackEnd.Transversal.Common;
 
 namespace MuniBot_BackEnd.Infrastructure.Interface
 {
@@ -12,23 +9,26 @@ namespace MuniBot_BackEnd.Infrastructure.Interface
     {
         #region Métodos Síncronos
 
-        bool Insert(Contribuyente contribuyente);
-        bool Update(Contribuyente contribuyente);
-        bool Delete(Contribuyente contribuyente);
-
-        Contribuyente Get(int id_Contribuyente);
+        ResponseQuery Insert(Contribuyente contribuyente);
+        ResponseQuery Update(Contribuyente contribuyente);
+        ResponseQuery Delete(Contribuyente contribuyente);
+        Contribuyente Get(int id_contribuyente);
         IEnumerable<Contribuyente> GetAll(Contribuyente contribuyente);
-        Contribuyente GetLogin(string co_usuario, string no_contrasena);
+        Contribuyente GetLogin(int id_empresa, string co_documento_identidad, string nu_documento_identidad, string no_contrasena);
+
         #endregion
 
         #region Métodos Asíncronos
+
         Task<ResponseQuery> InsertAsync(Contribuyente contribuyente);
         Task<ResponseQuery> UpdateAsync(Contribuyente contribuyente);
         Task<ResponseQuery> DeleteAsync(Contribuyente contribuyente);
-
         Task<Contribuyente> GetAsync(int id_contribuyente);
+        Task<DataJson> GetJsonAsync(int id_contribuyente);
         Task<IEnumerable<Contribuyente>> GetAllAsync(Contribuyente contribuyente);
-        Task<Contribuyente> GetLoginAsync(string co_documento_identidad, string nu_documento_identidad, string no_contrasena);
+        Task<Contribuyente> GetLoginAsync(int id_empresa, string co_documento_identidad, string nu_documento_identidad, string no_contrasena);
+
         #endregion
+
     }
 }

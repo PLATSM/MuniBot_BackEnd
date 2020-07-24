@@ -16,7 +16,7 @@ using System.Threading.Tasks;
 
 namespace Services.WebApi.Controllers
 {
-    //[Authorize]
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class SolicitudLicenciaController : Controller
@@ -153,10 +153,15 @@ namespace Services.WebApi.Controllers
         [HttpPost("GetAsync")]
         public async Task<IActionResult> GetAsync(SolicitudLicenciaDTO solicitudLicenciaDTO)
         {
-            if (solicitudLicenciaDTO.id_solicitud_licencia == 0)
+            if 
+            (
+                solicitudLicenciaDTO.id_solicitud_licencia == 0 &&
+                solicitudLicenciaDTO.id_contribuyente == 0 &&
+                string.IsNullOrEmpty(solicitudLicenciaDTO.nu_solicitud_licencia)
+            ) 
                 return BadRequest(); 
 
-            var response = await _solicitudLicenciaApplication.GetAsync(solicitudLicenciaDTO.id_solicitud_licencia);
+            var response = await _solicitudLicenciaApplication.GetAsync(solicitudLicenciaDTO.id_solicitud_licencia, solicitudLicenciaDTO.id_contribuyente, solicitudLicenciaDTO.nu_solicitud_licencia);
             if (response.IsSuccess)
                 return Ok(response);
 

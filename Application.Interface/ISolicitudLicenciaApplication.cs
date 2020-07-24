@@ -25,7 +25,7 @@ namespace MuniBot_BackEnd.Application.Interface
         Task<ResponseQuery> UpdateAsync(SolicitudLicenciaDTO solicitudLicenciaDTO);
         Task<ResponseQuery> DeleteAsync(SolicitudLicenciaDTO solicitudLicenciaDTO);
 
-        Task<Response<SolicitudLicenciaDTO>> GetAsync(int id_solicitudLicenciaDTO);
+        Task<Response<SolicitudLicenciaDTO>> GetAsync(int id_solicitudLicencia, int id_contribuyente, string nu_solicitud_licencia);
         Task<Response<IEnumerable<SolicitudLicenciaDTO>>> GetAllAsync(SolicitudLicenciaDTO solicitudLicenciaDTO);
         #endregion
 

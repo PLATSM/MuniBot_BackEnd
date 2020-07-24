@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using MuniBot_BackEnd.Application.DTO;
 using MuniBot_BackEnd.Transversal.Common;
-using System.Threading.Tasks;
 
 namespace MuniBot_BackEnd.Application.Interface
 {
@@ -11,12 +9,11 @@ namespace MuniBot_BackEnd.Application.Interface
     {
         #region Métodos Síncronos
 
-        Response<bool> Insert(ContribuyenteDTO contribuyenteDTO);
-        Response<bool> Update(ContribuyenteDTO contribuyenteDTO);
-        Response<bool> Delete(ContribuyenteDTO contribuyenteDTO);
-
+        ResponseQuery Insert(ContribuyenteDTO contribuyenteDTO);
+        ResponseQuery Update(ContribuyenteDTO contribuyenteDTO);
+        ResponseQuery Delete(ContribuyenteDTO contribuyenteDTO);
         Response<ContribuyenteDTO> Get(int id_contribuyente);
-        Response<ContribuyenteDTO> GetLogin(string co_usuario, string no_contrasena);
+        Response<ContribuyenteDTO> GetLogin(int id_empresa, string co_documento_identidad, string  nu_documento_identidad, string no_contrasena);
         Response<IEnumerable<ContribuyenteDTO>> GetAll(ContribuyenteDTO contribuyenteDTO);
 
         #endregion
@@ -25,10 +22,11 @@ namespace MuniBot_BackEnd.Application.Interface
         Task<ResponseQuery> InsertAsync(ContribuyenteDTO contribuyenteDTO);
         Task<ResponseQuery> UpdateAsync(ContribuyenteDTO contribuyenteDTO);
         Task<ResponseQuery> DeleteAsync(ContribuyenteDTO contribuyenteDTO);
-
-        Task<Response<ContribuyenteDTO>> GetAsync(int id_contribuyenteDTO);
-        Task<Response<ContribuyenteDTO>> GetLoginAsync(string co_documento_identidad, string nu_documento_identidad, string no_contrasena);
+        Task<Response<ContribuyenteDTO>> GetAsync(int id_contribuyente);
+        Task<Response<DataJsonDTO>> GetJsonAsync(int id_contribuyente);
+        Task<Response<ContribuyenteDTO>> GetLoginAsync(int id_empresa, string co_documento_identidad, string nu_documento_identidad, string no_contrasena);
         Task<Response<IEnumerable<ContribuyenteDTO>>> GetAllAsync(ContribuyenteDTO contribuyenteDTO);
+
         #endregion
 
     }

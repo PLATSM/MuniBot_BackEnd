@@ -63,9 +63,9 @@ namespace MuniBot_BackEnd.Domain.Core
             return await _solicitudLicenciaRepository.DeleteAsync(solicitudLicencia);
         }
 
-        public async Task<SolicitudLicencia> GetAsync(int id_solicitudLicencia)
+        public async Task<SolicitudLicencia> GetAsync(int id_solicitudLicencia, int id_contribuyente, string nu_solicitud_licencia)
         {
-            return await _solicitudLicenciaRepository.GetAsync(id_solicitudLicencia);
+            return await _solicitudLicenciaRepository.GetAsync(id_solicitudLicencia, id_contribuyente, nu_solicitud_licencia);
         }
 
         public async Task<IEnumerable<SolicitudLicencia>> GetAllAsync(SolicitudLicencia solicitudLicencia)

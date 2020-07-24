@@ -67,6 +67,15 @@ namespace Services.WebApi
             services.AddSingleton<IConfiguration>(Configuration);
             services.AddSingleton<IConnectionFactory, ConnectionFactory>();
 
+
+            services.AddScoped<IGeneralDetApplication, GeneralDetApplication>();
+            services.AddScoped<IGeneralDetDomain, GeneralDetDomain>();
+            services.AddScoped<IGeneralDetRepository, GeneralDetRepository>();
+
+            services.AddScoped<IUsuarioApplication, UsuarioApplication>();
+            services.AddScoped<IUsuarioDomain, UsuarioDomain>();
+            services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+
             services.AddScoped<IContribuyenteApplication, ContribuyenteApplication>();
             services.AddScoped<IContribuyenteDomain, ContribuyenteDomain>();
             services.AddScoped<IContribuyenteRepository, ContribuyenteRepository>();
@@ -74,6 +83,26 @@ namespace Services.WebApi
             services.AddScoped<ISolicitudLicenciaApplication, SolicitudLicenciaApplication>();
             services.AddScoped<ISolicitudLicenciaDomain, SolicitudLicenciaDomain>();
             services.AddScoped<ISolicitudLicenciaRepository, SolicitudLicenciaRepository>();
+
+            services.AddScoped<IEstablecimientoClaseApplication, EstablecimientoClaseApplication>();
+            services.AddScoped<IEstablecimientoClaseDomain, EstablecimientoClaseDomain>();
+            services.AddScoped<IEstablecimientoClaseRepository, EstablecimientoClaseRepository>();
+
+            services.AddScoped<IEstablecimientoSubclaseApplication, EstablecimientoSubclaseApplication>();
+            services.AddScoped<IEstablecimientoSubclaseDomain, EstablecimientoSubclaseDomain>();
+            services.AddScoped<IEstablecimientoSubclaseRepository, EstablecimientoSubclaseRepository>();
+
+            services.AddScoped<IEstablecimientoCategoriaApplication, EstablecimientoCategoriaApplication>();
+            services.AddScoped<IEstablecimientoCategoriaDomain, EstablecimientoCategoriaDomain>();
+            services.AddScoped<IEstablecimientoCategoriaRepository, EstablecimientoCategoriaRepository>();
+
+            services.AddScoped<IReniecApplication, ReniecApplication>();
+            services.AddScoped<IReniecDomain, ReniecDomain>();
+            services.AddScoped<IReniecRepository, ReniecRepository>();
+
+            services.AddScoped<IUbigeoApplication, UbigeoApplication>();
+            services.AddScoped<IUbigeoDomain, UbigeoDomain>();
+            services.AddScoped<IUbigeoRepository, UbigeoRepository>();
 
             services.AddScoped(typeof(IAppLogger<>), typeof(LoggerAdapter<>));
 

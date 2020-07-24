@@ -24,7 +24,7 @@ namespace MuniBot_BackEnd.Infrastructure.Interface
         Task<ResponseQuery> InsertAsync(SolicitudLicencia solicitudLicencia);
         Task<ResponseQuery> UpdateAsync(SolicitudLicencia solicitudLicencia);
         Task<ResponseQuery> DeleteAsync(SolicitudLicencia solicitudLicencia);
-        Task<SolicitudLicencia> GetAsync(int id_solicitudLicencia);
+        Task<SolicitudLicencia> GetAsync(int id_solicitudLicencia, int id_contribuyente, string nu_solicitud_licencia);
         Task<IEnumerable<SolicitudLicencia>> GetAllAsync(SolicitudLicencia solicitudLicencia);
         #endregion
     }

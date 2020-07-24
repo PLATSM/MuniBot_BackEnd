@@ -16,9 +16,9 @@ D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Logging\bin\Debug\net
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Logging\bin\Debug\netstandard2.0\Transversal.Common.dll
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Logging\bin\Debug\netstandard2.0\Transversal.Common.pdb
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Logging\obj\Debug\netstandard2.0\Transversal.Logging.csprojAssemblyReference.cache
-D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Logging\obj\Debug\netstandard2.0\Transversal.Logging.csproj.CoreCompileInputs.cache
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Logging\obj\Debug\netstandard2.0\Transversal.Logging.AssemblyInfoInputs.cache
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Logging\obj\Debug\netstandard2.0\Transversal.Logging.AssemblyInfo.cs
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Logging\obj\Debug\netstandard2.0\Transversal.Logging.csproj.CoreCompileInputs.cache
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Logging\obj\Debug\netstandard2.0\Transversal.Logging.csproj.CopyComplete
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Logging\obj\Debug\netstandard2.0\Transversal.Logging.dll
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Logging\obj\Debug\netstandard2.0\Transversal.Logging.pdb

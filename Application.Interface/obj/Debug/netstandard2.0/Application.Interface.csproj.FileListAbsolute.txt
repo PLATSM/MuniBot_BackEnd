@@ -40,9 +40,9 @@ D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Application.Interface\bin\Debug\n
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Application.Interface\bin\Debug\netstandard2.0\Transversal.Common.pdb
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Application.Interface\bin\Debug\netstandard2.0\Domain.Entity.pdb
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Application.Interface\obj\Debug\netstandard2.0\Application.Interface.csprojAssemblyReference.cache
-D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Application.Interface\obj\Debug\netstandard2.0\Application.Interface.csproj.CoreCompileInputs.cache
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Application.Interface\obj\Debug\netstandard2.0\Application.Interface.AssemblyInfoInputs.cache
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Application.Interface\obj\Debug\netstandard2.0\Application.Interface.AssemblyInfo.cs
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Application.Interface\obj\Debug\netstandard2.0\Application.Interface.csproj.CoreCompileInputs.cache
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Application.Interface\obj\Debug\netstandard2.0\Application.Interface.csproj.CopyComplete
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Application.Interface\obj\Debug\netstandard2.0\Application.Interface.dll
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Application.Interface\obj\Debug\netstandard2.0\Application.Interface.pdb
