@@ -270,7 +270,7 @@ namespace Services.WebApi.Controllers
                 {
                     new Claim(ClaimTypes.Name, contribuyenteDto.Data.co_usuario.ToString())
                 }),
-                Expires = DateTime.UtcNow.AddMinutes(1),
+                Expires = DateTime.UtcNow.AddMinutes(5),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature),
                 Issuer = _appSettings.Issuer,
                 Audience = _appSettings.Audience

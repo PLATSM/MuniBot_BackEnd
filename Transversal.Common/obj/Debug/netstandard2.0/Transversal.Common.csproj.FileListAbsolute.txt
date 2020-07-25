@@ -22,3 +22,4 @@ D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Common\obj\Debug\nets
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Common\obj\Debug\netstandard2.0\Transversal.Common.csproj.CoreCompileInputs.cache
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Common\obj\Debug\netstandard2.0\Transversal.Common.dll
 D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Common\obj\Debug\netstandard2.0\Transversal.Common.pdb
+D:\UPC\Proyecto Tesis\MuniBot_BackEnd .NET 3.0\Transversal.Common\obj\Debug\netstandard2.0\Transversal.Common.csprojAssemblyReference.cache
